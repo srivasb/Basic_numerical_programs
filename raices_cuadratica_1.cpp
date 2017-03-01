@@ -17,7 +17,7 @@ int main(){
   double N, x1, x21, x22, raiz;
 
   
-  double n[3] = {'a','b','c'};
+  char n[3] = {'a','b','c'};
 
 
   cout<<"el valor de c sera dado en forma de iteracion"<<endl;
@@ -38,13 +38,15 @@ int main(){
 
     x22 = (-n[1] - raiz ) / 2* n[0];
 
-    //cout.setf(ios::scientific);
+    
+    
+    cout.setf(ios::scientific);
 
 
 
-    //cout<<setprecision(10)<<x1<<'\t'<<setprecision(10)<<x21<<'\t'<<setprecision(10)<<x22<<endl;
+    cout<<setprecision(10)<<x1<<'\t'<<setprecision(10)<<x21<<'\t'<<setprecision(10)<<x22<<endl;
 
-    printf("%d\t%15.6e%15.6ee%\n",x1,x21, x22);
+    //printf("%d\t%15.6e%15.6ee%\n",x1,x21, x22);
 
   }
 
