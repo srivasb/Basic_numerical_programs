@@ -40,10 +40,10 @@ int main(){
     }
 
     seno += (dividendo / divisor) * signo; //Valor de la suma del seno
-    
-    }
 
-  std::cout<<seno<<'\t'<<x<<endl;
+    std::cout<<seno<<'\t'<<x<<endl;
+    
+  }
 
 
   return 0;
