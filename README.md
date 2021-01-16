@@ -1,2 +1,3 @@
-# trabajos-clase
-Subir programas hechos en clase o actividades pendientes
+# Basic Numerical Programs
+
+Numerical Methods programs writen in c++
